@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./TaskForm.css";
+import Button from '@mui/material/Button';
 
 
 export default function TaskForm({ initialValues, onSubmit }) {
@@ -57,7 +58,9 @@ export default function TaskForm({ initialValues, onSubmit }) {
                 </label>
             </div>
 
-            <button type="submit">Guardar</button>
+            <Button variant="contained" color="primary" type="submit">
+                Botón MUI funcionando
+            </Button>
         </form>
     );
 }

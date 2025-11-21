@@ -9,16 +9,3 @@ input, textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-
-button {
-    padding: 10px 16px;
-    border: none;
-    background: #1e88e5;
-    color: white;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #1565c0;
-}
